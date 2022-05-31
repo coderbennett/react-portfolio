@@ -1,12 +1,12 @@
 import Header from './components/Header';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Header />
-      <Project />
+      <Portfolio />
       <Footer />
     </>
 
