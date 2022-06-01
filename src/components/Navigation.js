@@ -1,10 +1,11 @@
 import React from 'react';
+import resume from '../assets/joeybennett_resume.pdf';
 
 function Navigation({currentPage, handlePageChange}) {
     return (
         <div className="navbar bg-base-100 fixed top-0 w-100 z-50">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">joey's react portfolio</a>
+                <a href="#hero" className="btn btn-ghost normal-case text-xl">joey's react portfolio</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal p-0">
@@ -21,7 +22,7 @@ function Navigation({currentPage, handlePageChange}) {
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'active:bg-primary' : ''}>Contact</a></li>
-                <li><a href="assets/joeybennett_resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+                <li><a href={resume} target="_blank" without rel="noopener noreferrer">Resume</a></li>
                 </ul>
             </div>
         </div>

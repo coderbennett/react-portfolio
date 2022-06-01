@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/joeybennett_resume.pdf';
 
 function About() {
     return (
@@ -14,7 +15,7 @@ function About() {
                 <p className="text-secondary">A photo of me with my dog Flora, hiking near Mount Tamalpais.</p>
                 <div className="card-actions justify-around mt-6">
                     <a href="https://github.com/coderbennett" target="_blank" rel="noreferrer"  className="btn btn-primary">View GitHub</a>
-                    <a  href="assets/joeybennett_resume.pdf" target="_blank" className="btn btn-primary">View Resume</a>
+                    <a  href={resume} without rel="noopener noreferrer" target="_blank" className="btn btn-primary">View Resume</a>
                 </div>
                 </div>
             </div>
@@ -26,7 +27,6 @@ function About() {
                     <p>You can always reach me at <a className="hover:text-secondary" href="mailto:coderbennett1@gmail.com">coderbennett1@gmail.com</a></p>
                     <div className="card-actions justify-around mt-6">
                     <a href="https://www.linkedin.com/in/joey-bennett-jkb/" rel="noreferrer" target="_blank" className="btn btn-neutral">View LinkedIn</a>
-                    <a href="#projects" className="btn btn-neutral">View Projects</a>
                   </div>
                 </div>
               </div>
