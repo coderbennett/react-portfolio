@@ -1,5 +1,6 @@
 # React Portfolio
 ![Code % Badge](https://img.shields.io/github/languages/top/coderbennett/react-portfolio) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 Welcome to my <a href="" target="_blank">React portfolio</a>!
 
 ## Description
