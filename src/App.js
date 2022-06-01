@@ -1,15 +1,8 @@
-import Header from './components/Header';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
+import Content from './components/Content';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Portfolio />
-      <Footer />
-    </>
-
+    <Content />
   );
 }
 
