@@ -18,6 +18,7 @@ function Content() {
         if (currentPage === 'Contact'){
             return <Contact />;
         }
+        return <About />;
     }
 
     const handlePageChange = (page) => setCurrentPage(page);

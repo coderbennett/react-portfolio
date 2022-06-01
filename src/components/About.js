@@ -25,7 +25,7 @@ function About() {
                     <p>I've been developing web apps for over 8 months, using technologies like MySQL, jQuery, Node.js, Tailwind, Moment.js, Handlebars along with other third party APIs. I've also spent a few years learning to develop games in Unity with C#. Below this section you can find projects I have worked on recently.</p>
                     <p>You can always reach me at <a className="hover:text-secondary" href="mailto:coderbennett1@gmail.com">coderbennett1@gmail.com</a></p>
                     <div className="card-actions justify-around mt-6">
-                    <a href="https://www.linkedin.com/in/joey-bennett-jkb/" rel="noreferrer"  target="_blank" className="btn btn-neutral">View LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/joey-bennett-jkb/" rel="noreferrer" target="_blank" className="btn btn-neutral">View LinkedIn</a>
                     <a href="#projects" className="btn btn-neutral">View Projects</a>
                   </div>
                 </div>
