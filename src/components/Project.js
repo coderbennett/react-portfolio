@@ -48,13 +48,13 @@ let projectArray = [
 function Project() {
     return projectArray.map((project, index) => (
         <div key={index} className="card w-2/4 h-fit bg-base-100 shadow-xl mx-auto my-6">
-            <figure><img src={require(`/src/assets/${project.media}`)} /></figure>
+            <figure><img alt={"animation of user navigating " + project.title} src={require(`/src/assets/${project.media}`)} /></figure>
             <div className="card-body">
                 <h2 className="card-title">{ project.title }</h2>
                 <p>{project.description}</p>
                 <div className="card-actions justify-end">
-                    <a href={project.repository} className="btn btn-primary" target="_blank">Visit Repo</a>
-                    <a href={project.deployed} className="btn btn-primary" target="_blank">Visit Deployed App</a>
+                    <a href={project.repository} className="btn btn-primary" rel="noreferrer" target="_blank">Visit Repo</a>
+                    <a href={project.deployed} className="btn btn-primary" rel="noreferrer" target="_blank">Visit Deployed App</a>
                 </div>
             </div>
         </div>
