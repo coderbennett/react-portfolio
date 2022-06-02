@@ -15,7 +15,7 @@ function About() {
                 <p className="text-secondary">A photo of me with my dog Flora, hiking near Mount Tamalpais.</p>
                 <div className="card-actions justify-around mt-6">
                     <a href="https://github.com/coderbennett" target="_blank" rel="noreferrer"  className="btn btn-primary">View GitHub</a>
-                    <a  href={resume} without rel="noopener noreferrer" target="_blank" className="btn btn-primary">View Resume</a>
+                    <a  href={resume} rel="noopener noreferrer" target="_blank" className="btn btn-primary">View Resume</a>
                 </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ function Navigation({currentPage, handlePageChange}) {
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'active:bg-primary' : ''}>Contact</a></li>
-                <li><a href={resume} target="_blank" without rel="noopener noreferrer">Resume</a></li>
+                <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                 </ul>
             </div>
         </div>
