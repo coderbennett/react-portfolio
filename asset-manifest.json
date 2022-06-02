@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d21da0bb.css",
+    "main.js": "/react-portfolio/static/js/main.37a12098.js",
+    "static/media/pethub.gif": "/react-portfolio/static/media/pethub.2922f0da689c75637ed3.gif",
+    "static/media/bookend.gif": "/react-portfolio/static/media/bookend.af81e2c9376f82ff78b6.gif",
+    "static/media/hero_img.jpg": "/react-portfolio/static/media/hero_img.4f49594866a7ca47bf4e.jpg",
+    "static/media/joey.jpg": "/react-portfolio/static/media/joey.176371ae72a76651284e.jpg",
+    "static/media/jate.gif": "/react-portfolio/static/media/jate.712eca6c74d13eeaf18e.gif",
+    "static/media/techblog.gif": "/react-portfolio/static/media/techblog.b72a49de188ba9da6615.gif",
+    "static/media/weatherdashboard.gif": "/react-portfolio/static/media/weatherdashboard.b086eab25c2b6144f569.gif",
+    "static/media/jsquiz.gif": "/react-portfolio/static/media/jsquiz.d0ebb984778bd52d05a3.gif",
+    "static/media/joeybennett_resume.pdf": "/react-portfolio/static/media/joeybennett_resume.c3f1ce1f848c02a836fe.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.d21da0bb.css.map": "/react-portfolio/static/css/main.d21da0bb.css.map",
+    "main.37a12098.js.map": "/react-portfolio/static/js/main.37a12098.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d21da0bb.css",
+    "static/js/main.37a12098.js"
+  ]
+}
